@@ -11,7 +11,7 @@
   align-items: center;
   text-align: center;
   font-size: 17px;
-  justify-content: space-evenly
+  justify-content: space-around;
 }
 
 .navBar-a {
@@ -25,7 +25,7 @@
 }
 
 .navBar-a a:hover {
-  background-color: #ddd;
+  background-color: rgb(234, 222, 57);
   color: black;
 }
 
@@ -41,9 +41,43 @@
   margin: 3px;
   padding: 2px;
   gap: 2rem;
+  flex-direction: column;
+  flex-flow: wrap;
 }
 
 img {
-  width: 440px;
-  height: 300px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-home {
+  font-size: 25px;
+  margin: 3px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container-about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  width: 100%;
+  font-size: 15px;
+}
+
+h1 {
+  text-align: center;
 }
